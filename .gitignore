@@ -1,0 +1,85 @@
+# ============================================================
+# Model weights / checkpoints
+# Model binaries are distributed separately via GitHub Releases.
+# ============================================================
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+
+
+# ============================================================
+# Audio / datasets
+# Real training and evaluation audio is private by default.
+# Public demo audio may be explicitly whitelisted later.
+# ============================================================
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.aac
+
+data/
+dataset/
+datasets/
+
+
+# ============================================================
+# Training outputs / experiment artifacts
+# ============================================================
+checkpoints/
+checkpoint/
+outputs/
+results/
+logs/
+runs/
+wandb/
+tensorboard/
+
+*.log
+
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.venv/
+venv/
+env/
+
+
+# ============================================================
+# IDE / editor
+# ============================================================
+.vscode/
+.idea/
+
+*.swp
+*.swo
+
+
+# ============================================================
+# Operating system
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ============================================================
+# Temporary / backup files
+# ============================================================
+*.tmp
+*.temp
+*.bak
+*.old
+*~
