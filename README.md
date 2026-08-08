@@ -258,6 +258,9 @@ MODEL_LICENSE
 也就是：
 
 ```bash
+git clone https://github.com/yongchanglu376-afk/SenseVoiceSmall-SmartHome-Finetuned.git
+cd SenseVoiceSmall-SmartHome-Finetuned
 pip install -r requirements.txt
 python inference.py test.wav
+
 ```
